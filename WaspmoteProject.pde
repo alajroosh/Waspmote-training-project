@@ -10,7 +10,7 @@ char login[] = "";
 char password[] = "";
 
 char IP[] = "";
-uint16_t port = 6000 ;
+uint16_t port = 0 ;
 // Variable to store measured radiation
 float radiationcpm;
 float radiationusv;
@@ -23,11 +23,8 @@ int8_t answer;
 
 // Encryption
 
-// Define a 24-Byte (AES-256) private key to encrypt message  
+// Define a 32-Byte (AES-256) private key to encrypt message  
 char key[] = "B?E(H+MbPeShVmYq3t6w9z$C&F)J@NcR"; 
-
-// original message on which the algorithm will be applied 
-char message[] = "This_is_a_message"; 
 
 // Variable for encrypted message's length
 uint16_t encrypted_length;
@@ -59,7 +56,7 @@ void setup()
 
 void loop()
 {
-       ///////////////////////////////////////////
+   ///////////////////////////////////////////
   // 1. Turn on the board
   /////////////////////////////////////////// 
   RadiationBoard.ON();
