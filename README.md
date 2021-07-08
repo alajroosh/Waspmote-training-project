@@ -23,5 +23,10 @@ fisrt make sure
 <br/>
 for this enter this information
 <br/>
+-apn[] , login[] , password[] for SIM company  
+-IP[] the IP of the server and port for the UDP
+-setPIN for the SIM card
+-you can change the key[] for encryption .
 
+<br/>
 this file use with react app .
