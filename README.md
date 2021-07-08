@@ -50,4 +50,4 @@ the  waspmote.js file will be like this
 <br/>
 <b>const waspmote='D8818E.....';export default waspmote;</b>
 
-*you need this library crypto-js see this link https://www.npmjs.com/package/crypto-js
+*you need this library <b>crypto-js</b> see this link https://www.npmjs.com/package/crypto-js
