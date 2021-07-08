@@ -5,12 +5,12 @@
 #include "WaspSensorRadiation.h"
 #include "WaspAES.h"
 
-char apn[] = "jawalnet.com.sa";
+char apn[] = "";
 char login[] = "";
 char password[] = "";
 
-char IP[] = "188.166.148.220";
-uint16_t port = 6000;
+char IP[] = "";
+uint16_t port = 6000 ;
 // Variable to store measured radiation
 float radiationcpm;
 float radiationusv;
@@ -154,7 +154,7 @@ strcat(encrypted_message_js,"';export default waspmote");
         // 3. sets pin code:
         USB.println(F("Setting PIN code..."));
         // **** must be substituted by the SIM code
-        if (_3G.setPIN("9330") == 1) 
+        if (_3G.setPIN("0000") == 1) 
         {
             USB.println(F("PIN code accepted"));
         }
