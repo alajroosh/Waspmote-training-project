@@ -15,7 +15,7 @@ the user need to retrive and see the actual data, it can be decrypt by entering 
 key.
 <br/>
 <br/>
-*WaspmoteProject.pde*
+<b>WaspmoteProject.pde<b>
 <br/>
 this code work in "Waspmote IDE"
 <br/>
