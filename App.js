@@ -36,7 +36,6 @@ class App extends React.Component {
 
     return (
 <div className="content">
-<img src="centerLogo.png" alt="Center of Excellence for information security" />
 
      <h2>{this.state.messageEncrypt}</h2>
       <form onSubmit={this.handleSubmit}>
