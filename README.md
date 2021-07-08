@@ -22,11 +22,10 @@ this code work in "Waspmote IDE"
 fisrt make sure 
 <br/>
 for this enter this information
-<br/>
--apn[] , login[] , password[] for SIM company  
--IP[] the IP of the server and port for the UDP
--setPIN for the SIM card
--you can change the key[] for encryption .
-
-<br/>
+<ul>
+<li>-apn[] , login[] , password[] for SIM company  </li>
+<li>-IP[] the IP of the server and port for the UDP</li>
+<li>-setPIN for the SIM card</li>
+<li>-you can change the key[] for encryption </li>
+</ul>
 this file use with react app .
