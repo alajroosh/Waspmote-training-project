@@ -51,3 +51,8 @@ the  waspmote.js file will be like this
 <b>const waspmote='D8818E.....';export default waspmote;</b>
 
 *you need this library <b>crypto-js</b> see this link https://www.npmjs.com/package/crypto-js
+
+<b>App.css</b>
+make the file in this folder 
+<b>my-app/src</b>
+this file css (Cascading Style Sheets) for Style the page
