@@ -19,13 +19,26 @@ key.
 <br/>
 this code work in "Waspmote IDE"
 <br/>
-fisrt make sure 
-<br/>
-for this enter this information
+fisrt make sure enter this information
 <ul>
 <li>-apn[] , login[] , password[] for SIM company  </li>
 <li>-IP[] the IP of the server and port for the UDP</li>
 <li>-setPIN for the SIM card</li>
 <li>-you can change the key[] for encryption </li>
 </ul>
+<br/>
+
+
+<b>App.js</b>
 this file use with react app .
+<br/>
+I use (create-react-app)
+<br/>
+make the file in this folder 
+<b>my-app/src</b>
+in same folder
+after that in server 
+make theudp connection listening at same port 
+and seve the data in file <b>waspmote.js</b>
+you can use this command 
+<b>nc -t -l 0.0.0.0 80 > waspmote.js</b>
