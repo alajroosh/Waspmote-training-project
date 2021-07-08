@@ -10,7 +10,7 @@ char login[] = "";
 char password[] = "";
 
 char IP[] = "";
-uint16_t port = 0 ;
+uint16_t port = 80 ;
 // Variable to store measured radiation
 float radiationcpm;
 float radiationusv;
