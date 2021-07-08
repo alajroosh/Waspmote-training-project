@@ -15,10 +15,13 @@ the user need to retrive and see the actual data, it can be decrypt by entering 
 key.
 <br/>
 <br/>
-<b>WaspmoteProject.pde<b>
+<b>WaspmoteProject.pde</b>
 <br/>
 this code work in "Waspmote IDE"
 <br/>
 fisrt make sure 
+<br/>
+for this enter this information
+<br/>
 
 this file use with react app .
