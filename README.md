@@ -36,10 +36,9 @@ I use (create-react-app)
 <br/>
 make the file in this folder 
 <b>my-app/src</b>
-in same folder
 <br/>
 after that in server 
-make theudp connection listening at same port 
+make the UDP connection listening at same port 
 <br/>
 and seve the data in file <b>waspmote.js</b>
 <br/>
