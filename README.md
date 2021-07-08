@@ -37,8 +37,16 @@ I use (create-react-app)
 make the file in this folder 
 <b>my-app/src</b>
 in same folder
+<br/>
 after that in server 
 make theudp connection listening at same port 
+<br/>
 and seve the data in file <b>waspmote.js</b>
+<br/>
 you can use this command 
+<br/>
 <b>nc -t -l 0.0.0.0 80 > waspmote.js</b>
+<br/>
+the  waspmote.js file will be like this
+<br/>
+<b>const waspmote='D8818E.....';export default waspmote;</b>
