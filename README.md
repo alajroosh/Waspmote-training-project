@@ -49,3 +49,5 @@ you can use this command
 the  waspmote.js file will be like this
 <br/>
 <b>const waspmote='D8818E.....';export default waspmote;</b>
+
+*you need this library crypto-js see this link https://www.npmjs.com/package/crypto-js
