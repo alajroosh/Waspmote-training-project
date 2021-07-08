@@ -1,14 +1,11 @@
 # Waspmote-training-project
 
-this is for the training project 
-
+this project work with Waspmote and  Radiation Sensor Board + Geiger tube and 3G module 
 <br/>
 WaspmoteProject.pde
-this file for Waspmote code it use with the (waspmote IDE)
-
 <br/>
-
-
+the code work in "Waspmote IDE"
+fisrt make sure 
 app.js 
 
 this file use with react app .
