@@ -42,10 +42,10 @@ make the UDP connection listening at same port
 <br/>
 and seve the data in file <b>waspmote.js</b>
 <br/>
-you can use this command 
+you can use this command (80 is port number)
 <br/>
-<b>nc -t -l 0.0.0.0 80 > waspmote.js</b>
-<br/>
+<b>nc -u -l 0.0.0.0 80 > waspmote.js</b>
+<br/> 
 the  waspmote.js file will be like this
 <br/>
 <b>const waspmote='D8818E.....';export default waspmote;</b>
